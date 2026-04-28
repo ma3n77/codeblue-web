@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Code Blue — Websites for Medical Practices</title>
+  <meta name="description"
+    content="Code Blue Medical Marketing builds professional, modern websites for doctors and clinics — with online booking, bilingual support, and mobile-first design." />
+  <link rel="icon" type="image/png" href="imgs/logo-vertical.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+  <div class="page-overlay"></div>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="#" class="nav__logo">
+      <img src="imgs/logo.png" alt="Code Blue" class="nav__logo-img" />
+    </a>
+    <ul class="nav__links">
+      <li><a href="#" class="nav__link">Home</a></li>
+      <li><a href="#work" class="nav__link">Our Work</a></li>
+      <li><a href="#contact" class="nav__link">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav__cta">Get In Touch</a>
+    <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu Drawer -->
+  <div class="nav__mobile-menu" id="mobileMenu">
+    <a href="#" class="nav__mobile-link">Home</a>
+    <a href="#work" class="nav__mobile-link">Our Work</a>
+    <a href="#contact" class="nav__mobile-link">Contact</a>
+    <a href="#contact" class="btn btn--primary nav__mobile-cta">Get In Touch</a>
+  </div>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg-grid"></div>
+
+    <div class="hero__content container">
+      <div class="hero__tag reveal">
+        <span class="chip chip--accent">Web Development</span>
+        <span class="hero__tag-dot"></span>
+      </div>
+
+      <h1 class="hero__display">
+        <span class="hero__display-line">Websites</span>
+        <span class="hero__display-line hero__display-line--outline">Built For</span>
+        <span class="hero__display-line">Medical</span>
+        <span class="hero__display-line hero__display-line--accent">Practices</span>
+      </h1>
+
+      <div class="hero__bottom">
+        <p class="hero__subtitle">
+          We design and develop professional websites for clinics and healthcare providers — with online booking,
+          patient portals, and mobile-first design.
+        </p>
+        <div class="hero__ctas">
+          <a href="#work" class="btn btn--primary">See Our Work</a>
+          <a href="#contact" class="btn btn--ghost">Get In Touch</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll scroll-indicator">
+      <span class="hero__scroll-label">Scroll</span>
+      <svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="6.5" y="0.5" width="3" height="14" rx="1.5" stroke="currentColor" stroke-opacity="0.4" />
+        <path d="M8 18L4 14H12L8 18Z" fill="currentColor" fill-opacity="0.4" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===================== MARQUEE ===================== -->
+  <div class="marquee-section">
+    <div class="marquee-wrapper">
+      <div class="marquee-track">
+        <span>Online Booking</span><span>·</span>
+        <span>Mobile Friendly</span><span>·</span>
+        <span>Bilingual Support</span><span>·</span>
+        <span>Patient Portal</span><span>·</span>
+        <span>Easy Management</span><span>·</span>
+        <span>Google Sheets Integration</span><span>·</span>
+        <span>Modern Design</span><span>·</span>
+        <span>Fast Loading</span><span>·</span>
+        <span>Online Booking</span><span>·</span>
+        <span>Mobile Friendly</span><span>·</span>
+        <span>Bilingual Support</span><span>·</span>
+        <span>Patient Portal</span><span>·</span>
+        <span>Easy Management</span><span>·</span>
+        <span>Google Sheets Integration</span><span>·</span>
+        <span>Modern Design</span><span>·</span>
+        <span>Fast Loading</span><span>·</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== WHY CODE BLUE ===================== -->
+  <section class="value-prop section" id="about">
+    <div class="container">
+      <div class="value-prop__grid">
+
+        <div class="value-prop__left">
+          <p class="value-prop__eyebrow reveal">Why Choose Us</p>
+          <h2 class="value-prop__heading reveal reveal-delay-1">
+            Your practice<br />
+            deserves a<br />
+            website that<br />
+            <em>works.</em>
+          </h2>
+          <div class="value-prop__stats">
+            <div class="stat reveal reveal-delay-1">
+              <span class="stat__number" data-target="10" data-suffix="+">0+</span>
+              <span class="stat__label">Websites Delivered</span>
+            </div>
+            <div class="stat reveal reveal-delay-2">
+              <span class="stat__number" data-target="4" data-suffix="+">0+</span>
+              <span class="stat__label">Happy Clients</span>
+            </div>
+            <div class="stat reveal reveal-delay-3">
+              <span class="stat__number" data-target="100" data-suffix="%">0%</span>
+              <span class="stat__label">Mobile Responsive</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="value-prop__features">
+          <div class="feature-card reveal">
+            <span class="feature-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                <line x1="16" y1="2" x2="16" y2="6" />
+                <line x1="8" y1="2" x2="8" y2="6" />
+                <line x1="3" y1="10" x2="21" y2="10" />
+                <path d="M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01M16 18h.01" />
+              </svg>
+            </span>
+            <h3 class="feature-card__title">Online Booking</h3>
+            <p class="feature-card__desc">
+              Patients book directly from your website. Appointments save to a Google Sheet — easy to manage, no extra
+              software needed.
+            </p>
+          </div>
+          <div class="feature-card reveal reveal-delay-1">
+            <span class="feature-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="2" y1="12" x2="22" y2="12" />
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+              </svg>
+            </span>
+            <h3 class="feature-card__title">Bilingual Support</h3>
+            <p class="feature-card__desc">
+              Full Arabic & English support with proper RTL layout. Serve all your patients in their preferred language.
+            </p>
+          </div>
+          <div class="feature-card reveal reveal-delay-2">
+            <span class="feature-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+                <line x1="12" y1="18" x2="12.01" y2="18" />
+              </svg>
+            </span>
+            <h3 class="feature-card__title">Mobile-First</h3>
+            <p class="feature-card__desc">
+              Every site is optimized for phones and tablets — where most of your patients will find you.
+            </p>
+          </div>
+          <div class="feature-card reveal reveal-delay-3">
+            <span class="feature-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+              </svg>
+            </span>
+            <h3 class="feature-card__title">Easy to Manage</h3>
+            <p class="feature-card__desc">
+              No complicated dashboards. View bookings and manage your site with zero technical knowledge.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FEATURED WORK ===================== -->
+  <section class="featured section" id="work">
+    <div class="container">
+
+      <div class="featured__header reveal">
+        <div>
+          <p class="featured__eyebrow">Our Work</p>
+          <h2 class="featured__title">Websites<br />We've Built</h2>
+        </div>
+      </div>
+
+      <div class="featured__grid">
+
+        <!-- ESS — Featured (Full Platform) -->
+        <article class="project-card project-card--featured reveal">
+          <div class="project-card__image">
+            <img src="imgs/ess.png" alt="Egyptian Sleep Society Platform" class="project-card__img" />
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__meta">
+              <span>Full Platform</span>
+            </div>
+            <h3 class="project-card__title">Egyptian Sleep Society<br />Membership Platform</h3>
+            <p class="project-card__desc">
+              A complete digital platform for the Egyptian Sleep Society — featuring member subscriptions,
+              an admin dashboard for managing events, board members, videos, and all content.
+              Supports both English and Arabic with an integrated online payment system and
+              appointment booking via Google Sheets.
+            </p>
+            <div class="project-card__footer">
+              <div class="chips">
+                <span class="chip">Member Portal</span>
+                <span class="chip">Subscriptions</span>
+                <span class="chip">Admin Dashboard</span>
+                <span class="chip">Bilingual</span>
+                <span class="chip">Online Payments</span>
+                <span class="chip">Booking System</span>
+              </div>
+              <a target="_blank" href="https://egyptiansleepsociety.com/en" class="project-card__link">
+                Live Site <span class="arrow">→</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Secondary cards -->
+        <div class="featured__secondary">
+
+          <!-- WeCare -->
+          <article class="project-card reveal reveal-delay-1">
+            <div class="project-card__image">
+              <img src="imgs/wecare.png" alt="WeCare Health & Dental" class="project-card__img" />
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__meta">
+                <span>Medical Website</span>
+              </div>
+              <h3 class="project-card__title">WeCare Health & Dental</h3>
+              <p class="project-card__desc">
+                A bilingual medical website for WeCare clinic — featuring online appointment booking,
+                a patient portal linking to live lab results, and full Arabic support.
+                Designed to give patients easy access to services and build trust.
+              </p>
+              <div class="project-card__footer">
+                <div class="chips">
+                  <span class="chip">Appointment Booking</span>
+                  <span class="chip">Patient Portal</span>
+                  <span class="chip">Lab Results</span>
+                  <span class="chip">Bilingual</span>
+                </div>
+                <a href="https://ma3n77.github.io/WeCare/" target="_blank" rel="noopener" class="project-card__link">
+                  Live Site <span class="arrow">→</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Amira Clinic -->
+          <article class="project-card reveal reveal-delay-2">
+            <div class="project-card__image">
+              <!-- Replace src with actual Amira Clinic screenshot when ready -->
+              <img src="imgs/amira.png" alt="Amira Clinic" class="project-card__img" />
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__meta">
+                <span>Clinic Website</span>
+              </div>
+              <h3 class="project-card__title">Amira Clinic</h3>
+              <p class="project-card__desc">
+                A modern, clean website for a private clinic — with online appointment booking
+                that saves directly to Google Sheets, a services overview, and a professional design
+                that builds patient confidence.
+              </p>
+              <div class="project-card__footer">
+                <div class="chips">
+                  <span class="chip">Online Booking</span>
+                  <span class="chip">Google Sheets</span>
+                  <span class="chip">Modern Design</span>
+                  <span class="chip">Mobile Friendly</span>
+                </div>
+                <a href="https://ma3n77.github.io/Dr.Amira/" target="_blank" rel="noopener" class="project-card__link">
+                  Live Site <span class="arrow">→</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact__inner">
+
+        <!-- Left: Info -->
+        <div class="contact__info">
+          <p class="contact__eyebrow reveal">Get In Touch</p>
+          <h2 class="contact__heading reveal reveal-delay-1">
+            Let's build<br />your<br /><em>website.</em>
+          </h2>
+          <p class="contact__subtext reveal reveal-delay-2">
+            Get in touch and we'll discuss what works best for your practice.
+          </p>
+
+          <div class="contact__channels reveal reveal-delay-3">
+            <!-- WhatsApp -->
+            <a href="https://wa.me/201507543101" target="_blank" rel="noopener" class="contact__channel">
+              <span class="contact__channel-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                </svg>
+              </span>
+              <div>
+                <p class="contact__channel-label">WhatsApp</p>
+                <p class="contact__channel-value">+20 150 754 3101</p>
+              </div>
+            </a>
+            <!-- Email -->
+            <a href="mailto:info@codebluemarketing.com" class="contact__channel">
+              <span class="contact__channel-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </span>
+              <div>
+                <!-- Update email when provided -->
+                <p class="contact__channel-label">Email</p>
+                <p class="contact__channel-value">info@codebluemarketing.com</p>
+              </div>
+            </a>
+
+            <!-- Socials -->
+            <div class="contact__socials">
+              <a href="https://www.linkedin.com/company/code-blue-for-medical-marketing/" target="_blank" rel="noopener"
+                class="contact__social-link" aria-label="LinkedIn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                </svg>
+              </a>
+              <a href="https://www.facebook.com/share/19SGwAJpqK/?mibextid=wwXIfr" target="_blank" rel="noopener"
+                class="contact__social-link" aria-label="Facebook">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/codeblue.marketing?igsh=N2E0cWZ5YW0yOTQ2" target="_blank"
+                rel="noopener" class="contact__social-link" aria-label="Instagram">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678a6.162 6.162 0 100 12.324 6.162 6.162 0 100-12.324zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405a1.441 1.441 0 11-2.88 0 1.441 1.441 0 012.88 0z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Form -->
+        <form class="contact__form reveal reveal-delay-2" id="contactForm">
+          <div class="form-group">
+            <label class="form-group__label" for="name">Name</label>
+            <input class="form-group__input" type="text" id="name" name="name" placeholder="Dr. Ahmed" required />
+          </div>
+          <div class="form-group">
+            <label class="form-group__label" for="contact-info">Email or Phone</label>
+            <input class="form-group__input" type="text" id="contact-info" name="contact_info"
+              placeholder="doctor@clinic.com or +20 1XX XXX XXXX" required />
+          </div>
+          <div class="form-group">
+            <label class="form-group__label" for="specialty">Specialty</label>
+            <select class="form-group__select" id="specialty" name="specialty">
+              <option value="" disabled selected>Select your specialty</option>
+              <option value="General Practice">General Practice</option>
+              <option value="Dentist">Dentist</option>
+              <option value="Dermatology">Dermatology</option>
+              <option value="Cardiology">Cardiology</option>
+              <option value="Orthopedics">Orthopedics</option>
+              <option value="Pediatrics">Pediatrics</option>
+              <option value="Ophthalmology">Ophthalmology</option>
+              <option value="ENT">ENT</option>
+              <option value="Gynecology">Gynecology</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-group__label" for="message">Message <span
+                style="opacity:0.5;text-transform:none;font-weight:400;">(optional)</span></label>
+            <textarea class="form-group__textarea" id="message" name="message"
+              placeholder="Tell us about your practice or what you're looking for..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary contact__submit">Send Message</button>
+          <p class="contact__submit-status" id="formStatus"></p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <span class="footer__logo">
+        <img src="imgs/logo.png" alt="Code Blue" class="footer__logo-img" />
+      </span>
+      <span class="footer__copy">© 2025 Code Blue Medical Marketing. All rights reserved.</span>
+      <div class="footer__socials">
+        <a href="https://www.linkedin.com/company/code-blue-for-medical-marketing/" target="_blank"
+          class="footer__social-link">LinkedIn</a>
+        <a href="https://www.facebook.com/share/19SGwAJpqK/?mibextid=wwXIfr" target="_blank"
+          class="footer__social-link">Facebook</a>
+        <a href="https://www.instagram.com/codeblue.marketing?igsh=N2E0cWZ5YW0yOTQ2" target="_blank"
+          class="footer__social-link">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
